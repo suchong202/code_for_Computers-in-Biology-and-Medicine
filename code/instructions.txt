@@ -1,7 +1,7 @@
 
 step1:first run findFeature.py    //Extract features and generate data sets
 
-1,When you run "findFeature.py" with the Excel Files call "RFTR.xls, RDTR.xls,......" respectively, you should revise the statement "filename=........" (line 430)of the "findFeatu.py".   
+1,When you run "findFeature.py" with the Excel Files called "RFTR.xls, RDTR.xls,......" respectively, you should revise the statement "filename=........" (line 430)of the "findFeatu.py".   
 2,Thus, you can obtian relevant Excel Files called "cube0, cube1,......................." which will be integrated into a new Excel file for training and testing.
 
 step2: run catboost.py   //need to adjust the file path
